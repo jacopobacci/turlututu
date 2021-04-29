@@ -22,6 +22,10 @@ nav a:first-child {
   font-size: 1.2rem;
 }
 
+#login {
+  float: right;
+}
+
 .blue-band {
   height: 50vh;
 
@@ -30,7 +34,7 @@ nav a:first-child {
   align-items: center;
 }
 
-.fa-user {
+.blue-band .fa-user {
   font-size: 20rem;
   width: 50%;
 }
