@@ -1,0 +1,140 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 132, 255, 0.719);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  padding: 25px 0px;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+nav a {
+  margin: 0 20px;
+  color: white;
+}
+
+nav a:first-child {
+  font-size: 1.2rem;
+}
+
+.blue-band {
+  height: 50vh;
+
+  margin: 5vh 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.fa-user {
+  font-size: 20rem;
+  width: 50%;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title h1,
+.main-title h2,
+.main-title button {
+  margin: 3vh;
+  color: white;
+}
+
+.main-title h1 {
+  font-size: 3rem;
+}
+
+.main-title h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: orange;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  color: white;
+  min-width: 15vw;
+}
+
+.white-band {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.white-band h1 {
+  float: right;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.feature {
+  margin: 3rem;
+  color: white;
+}
+
+.feature h1 {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.brands {
+  background-color: lightgrey;
+}
+.brands .container {
+  height: 40vh;
+}
+.brands-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5vh 0 0 0;
+}
+
+.brands i,
+.fa-css3-alt {
+  font-size: 6rem;
+}
+
+.buttons {
+  height: 40vh;
+  background-color: white;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.buttons-container button:nth-of-type(1),
+.buttons-container button:nth-of-type(2) {
+  background-color: blue;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  color: white;
+}
+
+footer a {
+  color: white;
+  padding: 0px 0.3rem;
+}
+
+.footer-links {
+  padding: 1rem 0 0 1rem;
+}
